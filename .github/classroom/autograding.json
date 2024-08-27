@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 1",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_hello.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "python mine.py",
+      "input": "",
+      "output": "Hello world!",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
